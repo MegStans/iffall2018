@@ -1,0 +1,186 @@
+h1.first
+	{font-family: Helvetica, sans-serif;
+	text-align: left;
+	font-weight:bold;
+	padding-top:3rem;
+	margin-left:2rem;
+	font-size:40pt;
+	color: grey;
+	padding-bottom:1rem;}
+hr.first
+{	margin-top: -1rem;
+}
+hr.second
+{	margin-top: 2.5rem;
+	color:salmon;
+}
+p.first {
+	font-family: Helvetica, serif;
+	color: #943126;
+	padding top:3rem;
+	margin-left:4rem;
+	font-size:20pt;
+	font-weight:normal;
+	margin-top:4rem;
+	margin-bottom:1rem;
+}
+p.second{
+	font-family: Helvetica, serif;
+	color: grey;
+	padding top:3rem;
+	margin-left:4.5rem;
+	font-size:12pt;
+	font-weight:normal;
+	padding-bottom:-1rem;
+	margin-bottom:-1.25rem;
+}
+p.style1
+{
+	font-family:'Crimson Text', serif;
+	color: black;
+	font-size:20pt;
+	padding top:-.5rem;
+	margin-left:4.5rem;
+	font-style:normal;
+}
+p.style2
+{
+	font-family:'Crimson Text', serif;
+	color: black;
+	font-size:20pt;
+	padding top:-.5rem;
+	margin-left:4.5rem;
+	font-style:normal;
+	font-weight:bold;
+}
+p.style3
+{
+	font-family:'Crimson Text', serif;
+	color: black;
+	font-size:20pt;
+	padding top:-.5rem;
+	margin-left:4.5rem;
+	font-style:italic;
+	font-weight:normal;
+}
+p.style4
+{
+	font-family:'Crimson Text', serif;
+	color: black;
+	font-size:20pt;
+	padding top:-.5rem;
+	margin-left:4.5rem;
+	font-style:normal;
+	font-weight:normal;
+	letter-spacing: .5em;
+	}
+p.style5
+{
+	font-family:'Crimson Text', serif;
+	color: black;
+	font-size:20pt;
+	padding top:-.5rem;
+	margin-left:4.5rem;
+	font-style:normal;
+	font-weight:normal;
+	letter-spacing: -.05em;
+}
+p.style6
+{
+	font-family:'Crimson Text', serif;
+	color: black;
+	font-size:20pt;
+	padding top:-.5rem;
+	margin-left:4.5rem;
+	font-style:normal;
+	text-decoration-line: none;
+}
+p.style7
+{
+	font-family:'Crimson Text', serif;
+	color: black;
+	font-size:20pt;
+	padding top:-.5rem;
+	margin-left:4.5rem;
+	font-style:normal;
+	text-decoration-line: underline;
+}
+p.style8
+{
+	font-family:'Crimson Text', serif;
+	color: black;
+	font-size:20pt;
+	padding top:-.5rem;
+	margin-left:4.5rem;
+	font-style:normal;
+	text-decoration-line: line-through;
+}
+p.style9
+{
+	font-family:'Crimson Text', serif;
+	color: black;
+	font-size:20pt;
+	padding top:-.5rem;
+	margin-left:4.5rem;
+	font-style:normal;
+	text-decoration-line: overline;
+}
+p.style10
+{
+	font-family:'Crimson Text', serif;
+	color: black;
+	font-size:20pt;
+	padding top:-.5rem;
+	margin-left:4.5rem;
+	font-style:normal;
+	text-transform: none;
+}
+p.style11
+{
+	font-family:'Crimson Text', serif;
+	color: black;
+	font-size:20pt;
+	padding top:-.5rem;
+	margin-left:4.5rem;
+	font-style:normal;
+	text-transform: uppercase;
+}
+p.style12
+{
+	font-family:'Crimson Text', serif;
+	color: black;
+	font-size:20pt;
+	padding top:-.5rem;
+	margin-left:4.5rem;
+	font-style:normal;
+	text-transform: lowercase;
+}
+p.style13
+{
+	font-family:'Crimson Text', serif;
+	color: black;
+	font-size:20pt;
+	padding top:-.5rem;
+	margin-left:4.5rem;
+	font-style:normal;
+	text-transform: capitalize;
+}
+p.new
+{
+	font-family:'Crimson Text', serif;
+	color: salmon;
+	font-size:25pt;
+	padding top:-.5rem;
+	margin-left:4.5rem;
+	font-style:normal;
+	text-transform: none;
+	margin-bottom: -.5rem}
+
+p.new1
+	{font-family:'Crimson Text', serif;
+	color: grey;
+	font-size:15pt;
+	padding top:-.5rem;
+	margin-left:4.5rem;
+	font-style:normal;
+	text-transform: none;}
