@@ -5,312 +5,157 @@ body{
 	font-size: 16px;
 	color:white;
 }
-header {background-color: rgba(255,0,0,.5);
-	padding-top:0px;
-	margin:-54px;
+div.fix{
+	margin:0 auto;
+		width:960px;}
+h1.title{
+		margin:0 0 36.5px 0;
+		padding-top:45px;
+		font-size:30pt;
+		text-align: center;}
+
+header {
+	background-color: rgba(255,0,0,.5);
+	margin: 0 0 0 0;
 	height:480px;
 	background-image: url("images/plant.jpg");
 	}
 
-header h1 {
-	margin-top:0px
-	margin-bottom:0px;
-	padding-top:164px;
+	header h1 {
+	margin-top:0px;
+	padding-top:162px;
 	font-size:60pt;
 	text-align: center;
+	margin-bottom:15px;
 
-}
-header h2{
-	margin-top: -42px;
+	}
+
+	header h2{
+	margin-top: 0px;
 	margin-bottom:0px;
-	font-size:22.6pt;
+	font-size:22.5pt;
 	text-align: center;
 	padding-top:-20px;
-}
+	}
 
-	section.first h1{
-		margin-top:0px
-		margin-bottom: 0px;
-		padding-top:45px;
-		font-size:30pt;
-		text-align: center;
-	}
-	div.image {
-		height:300px;
-		width:400px;
-		background-image: url("images/pink.jpg");
-		margin-left:30pt;
-		margin-right:127px;
-		margin-top:5pt;
-		padding-bottom:0px;
-		margin-bottom:30px;
-		float:right;
-	}
-	section.first {
+
+
+section.first{
 		background: linear-gradient(to bottom, #69ef9c 0%, #ff99cc 100%);
-		margin-top:54px;
+		margin:0000;
 		height:715px;
-		padding-right:100pt;
-		margin-bottom:-33px;
-		width:100%;
-		
-	}
-	section.text{
-		font-size:13pt;
-		padding-left:95pt;
-		letter-spacing: .17pt;
-		padding-top:0px;
-		width:60rem;
-		font-family: "Archivo Narrow", sans-serif;
-
-}
-p.one
-		{font-size:13pt;
-		line-height:19pt;
-		padding-left:0pt;
-		letter-spacing: .17pt;
-		width:60rem;
-		font-family: "Archivo Narrow", sans-serif;
-		text-align:left;
-}
-p.second{font-size:13pt;
-		line-height:19pt;
-		padding-left:0pt;
-		letter-spacing: .17pt;
-		width:60rem;
-		font-family: "Archivo Narrow", sans-serif;*/
-}
-p.third{
-		font-size:13pt;
-		line-height:19pt;
-		padding-left:0pt;
-		letter-spacing: .17pt;
-		width:60rem;
-		font-family: "Archivo Narrow", sans-serif;
-
-}
-section.second{
-		background: linear-gradient(to bottom, #fc0f58 0%, #ffa8c3 100%);
-		height:685px;
-		width:100%;
-		margin-left:0px;
-		padding-left:0px;
-	}
-section.second h1{
-		margin-top:0px
-		margin-bottom:0px;
-		padding-top:42px;
-		font-size:30pt;
-		text-align: center;}
-div.image1 {
-		height:150px;
-		width:200px;
-		background-image: url("images/aloe.jpg");
-		margin-left:190px;
-		margin-top:0px;
-}
-
-div.image2 {
-		height:150px;
-		width:200px;
-		background-image: url("images/chick.jpg");
-		margin-left:190px;
-		margin-right:0px;
-		margin-top:20pt;
+		background-color: rgba(255,0,0,.5);
 		}
 
-div.image3 {
-	height:150px;
-		width:200px;
-		background-image: url("images/desert.jpg");
-		margin-left:190px;
-		margin-right:0px;
-		margin-top:20pt;
-		padding-bottom:0px;
-		margin-bottom:0px;}
+	p{
+	font-size:13pt;
+	line-height:18.8pt;
+	letter-spacing: .18pt;
+	text-align:left;
+	margin: 0000;}
 
-div.image4 {
-	height:150px;
-		width:200px;
-		background-image: url("images/jade.jpg");
-		margin-left:670px;
-		margin-right:0px;
-		margin-top:-365pt;
-		padding-bottom:0px;
-		margin-bottom:0px;
-		}
-
-div.image5 {
-	height:150px;
-		width:200px;
-		background-image: url("images/haw.jpg");
-		margin-left:670px;
-		margin-right:0px;
-		margin-top:16pt;
-		padding-bottom:0px;
-		margin-bottom:0px;
-		}
-
-div.image6 {
-	height:150px;
-		width:200px;
-		background-image: url("images/donkey.jpg");
-		margin-left:670px;
-		margin-right:0px;
-		margin-top:20pt;
-		padding-bottom:0px;
-		margin-bottom:0px;
+	div.image{
+	height:300px;
+	width:400px;
+	background-image: url("images/pink.jpg");
+	float:right;
+	margin-left:35px;
+	margin-bottom:35px;
 	}
-div.photot1{font-size:16pt;
-		font-weight:medium;
-		line-height:16pt;
-		margin-bottom:0px;
-		padding-left:400px;
-		letter-spacing: .17pt;
-		margin:auto;
-		margin-top:-495px;
-		font-family: "Archivo Narrow", sans-serif;}
-div.photot2{font-size:16pt;
-		margin-bottom:0px;
-		padding-left:148pt;
-		padding-top:45px;
-		letter-spacing: .17pt;
-		margin-left:204px;
-		font-family: "Archivo Narrow", sans-serif;}
-div.photot3{font-size:16pt;
-		padding-left:300pt;
-		margin-top:45px;
-		letter-spacing: .17pt;
-		width:60rem;
-		font-family: "Archivo Narrow", sans-serif;}
-div.photot4{font-size:16pt;
-		padding-left: 880px;
-		letter-spacing: .17pt;
-		width:60rem;
-		font-family: "Archivo Narrow", sans-serif;
-		margin-top:-495px;}
-div.photot5{font-size:16pt;
-		padding-left:661pt;
-		letter-spacing: .17pt;
-		margin-top:44px;
-		margin-bottom:7px;
-		width:60rem;
-		font-family: "Archivo Narrow", sans-serif;}
-div.photot6{font-size:16pt;
-		padding-left:881px;
-		letter-spacing: .17pt;
-		width:60rem;
-		margin-top:40px;
-		font-family: "Archivo Narrow", sans-serif;
-		margin-bottom:6px;}
 
+section.second
+	{background: linear-gradient(to bottom, #fc0f58 0%, #ffa8c3 100%);
+	height:685px;
+	margin:0000;
+	background-color: rgba(255,0,0,.5)
+	}
 
-div.fourth
-{margin:auto;
-font-size:13pt;
-line-height:19pt;
-letter-spacing:.25pt;
-width:220px;
-margin-left:65px;
-padding-left:335px;
-padding-top:8px;
-margin-top:0px;
-text-align:left;}
-p.fifth
-{margin:auto;
-font-size:13pt;
-line-height:19pt;
-letter-spacing:.25pt;
-width:220px;
-margin-left:65px;
-padding-left:335px;
-margin-top:6px;
-text-align:left;}
-p.sixth
-{margin:auto;
-font-size:13pt;
-line-height:19pt;
-letter-spacing:.25pt;
-width:220px;
-margin-left:0px;
-padding-left:400px;
-margin-top:10px;
-text-align:left;}
-p.seventh
-{margin:auto;
-font-size:13pt;
-line-height:19pt;
-width:200px;
-padding-left:638px;
-letter-spacing:.25pt;
-width:220px;
-padding-top:10px;
-}
-p.eighth
-{margin:auto;
-font-size:13pt;
-line-height:20pt;
-width:200px;
-text-align:left;
-padding-left:640px;
-letter-spacing:.25pt;
-width:220px;}
-p.ninth
-{margin:auto;
-font-size:13pt;
-line-height:20pt;
-width:200px;
-margin-top:;
-text-align:left;
-padding-left:644px;
-letter-spacing:.25pt;
-width:220px;
+div.container div.photot{
+	font-size:15pt;
+	font-weight:bold;
+	margin-left:210px;
+	margin-bottom:9px;}
+
+div.container div.description
+	{font-size:13pt;
+	line-height:19pt;
+	letter-spacing:.25pt;
+	width:220px;
+	text-align:left;
+	margin-left:210px;
+	margin-bottom:43px;}
+
+div.column1{
+	height:685px;
 }
 
+div.desert{
+	height:150px;
+	width:200px;
+	background-image: url("images/desert.jpg");
+	float:left;}
+div.chick{
+	height:150px;
+	width:200px;
+	background-image: url("images/chick.jpg");
+	float:left;
+	margin-left:0px;
+	margin-top:0px;}
+div.jade{
+	height:150px;
+	width:200px;
+	background-image: url("images/jade.jpg");
+	float:left;
+	margin-left:0px;
+	margin-top: 0px;}
 
+div.column2{
+	margin-left:480px;
+	margin-top:-520px;}
 
+div.haw{	
+	height:150px;
+	width:200px;
+	background-image: url("images/haw.jpg");
+	float:left;
+	margin-top:-350px;}
+div.donkey{
+	height:150px;
+	width:200px;
+	background-image: url("images/donkey.jpg");
+	float:left;
+	margin:0000;}
+div.aloe{
+	height:150px;
+	width: 200px;
+	background-image: url("images/aloe.jpg");
+	float:left;
+	margin-top:-178px;
+	margin-left:-200px;}
+div.container
+	{width:480px;}
 
-
-p.fourth
-{font-size:13pt;
-		line-height:19pt;
-		padding-left:0pt;
-		letter-spacing: .17pt;
-		width:60rem;
-		font-family: "Archivo Narrow", sans-serif;}
-
-section.third h1{
-		margin-top:0px
-		margin-bottom: 0px;
-		padding-top:45px;
-		font-size:30pt;
-		text-align: center;
-}
+section.third
+	{
+	background:linear-gradient(to bottom, #d7f2c9 0%, #05511b 100%);
+	margin:0000;
+	font-size:19pt;
+	height:400px;
+	background-color: rgba(255,0,0,.5);}
 div.text3
-{
-	font-size: 19.5pt;
-	font-weight:normal;
+	{width:770px;
 	text-align:center;
-	width: 750px;
-	margin: auto;
-	padding-top:8px;
-	line-height:26pt;
-	font-family: "Archivo Narrow", sans-serif;
-}
-section.third{
-		background:linear-gradient(to bottom, #d7f2c9 0%, #05511b 100%);
-		margin-top: -33px;
-		height:400px;
-		width:100%;
-		text-align:center;
-}
+	margin-left:310px;
+	padding-top:0px;
+	letter-spacing: .19pt;
+	line-height:26.5pt;}
 
 footer{
-	color:pink;
-	margin:auto;
+	color:#05511b;
+	margin:0000;
 	font-size:13.5pt;
+	letter-spacing: :.1px;
 	font-family: "Archivo Narrow", sans-serif;
 	padding-top:43px;
-	padding-left:190px;
+	margin-left:-.5px;
 }
-/*height of top box is 480, chrome px*/
