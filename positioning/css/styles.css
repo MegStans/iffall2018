@@ -1,0 +1,45 @@
+section{
+
+}
+aside#first{
+	float:right;
+	right:0pt;}
+section.second{
+	position:relative;
+}
+aside#second{
+	right:0pt;
+	bottom:0pt;
+	position:absolute;
+}
+section.third{
+	position:relative;
+}
+aside#third{
+	background-color:green;
+	position:fixed;
+	top:0pt;
+	right:0pt;
+}
+section.fourth{
+	position:relative;
+}
+aside#fourth{
+	background-color:red;
+	position:absolute;
+	z-index: 1;
+ 	transform:translateX(-50%);
+ 	left:50%;
+ 	margin:auto; 
+
+}
+aside#fifth{
+	background-color:black;
+	position:absolute;
+ 	transform:translateX(-50%);
+ 	left:50%;
+ 	margin:auto;
+ 	margin-top:10px;
+ 	margin-left:10px;
+
+}
