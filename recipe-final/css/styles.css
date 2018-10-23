@@ -55,6 +55,10 @@ hr.info {
 	margin-top:-3%;
 	margin-bottom: 20px;}
 
+hr.info1 {
+	color: #e5defc;
+	border-style:solid;}
+
 
 div.image{
 	margin: 0 0 0 0 ;
@@ -110,28 +114,40 @@ img#pie{
 	height: 20%;
 	width: 100%;
 	float:top;
-	margin-bottom:-10%;
+	margin-bottom:-12%;
 	margin-left: 0%;
 	z-index: 1;
 	}
 
 h1.ingredients{
-	font-size:25pt;
+	font-size:34pt;
 	font-family: 'Amatic SC', cursive;
 }
 
 h2.ingredients{
 	font-size:20pt;
 	font-family: 'Amatic SC', cursive;
+/*	color: #e5defc;*/
 }
 div.ingredients1{
 	font-size:12pt;
 	font-family: 'Amatic SC', cursive;
-	position:absolute;
-	text-align:center;
+	display:inline-block;
+	margin:0 10px;
 }
-
-#serving{ margin-left:0%;
+div.ingredients2{
+	font-size:12pt;
+	font-family: 'Amatic SC', cursive;
+	display:inline-block;
+	margin:0 10px;
+}
+div.ingredients3{
+	font-size:12pt;
+	margin:0 10px;
+	font-family: 'Amatic SC', cursive;
+	display:inline-block;
+}
+/*#serving{ margin-left:0%;
 
 }
 #prep{margin-left:25%;
@@ -141,6 +157,7 @@ div.ingredients1{
 #cook{margin-left: 60%;
 
 }
+*/
 
 hr.underline {
 	width:45%;
@@ -170,11 +187,9 @@ div.bodycopy1{
 	font-family: 'KoHo', sans-serif;
 }
 div.bodycopy5{
-	width:90%;
-	height:50px;
-	padding-left:5%;
-	bottom-margin:5%;
-	position:relative;
+	text-align:center;
+	height:6%;
+	width:100%;
 	font-family: 'KoHo', sans-serif;
 }
 
@@ -188,19 +203,57 @@ div.bodycopy2{
 	background: #c6ceff;
 }
 
-div.left{
+/*div.left{
 	text-align:left;
-}
+}*/
 hr.info {
 	width:97%;
 	color:white;
 	border-style:solid;
 	margin-top:-3%;
 	margin-bottom: 10%;}
+
+span.number{
+	font-family: 'Amatic SC', cursive;
+	font-size:14pt;
+	color: #e5defc
+	}
+div.number1{
+	font-family: 'Amatic SC', cursive;
+	font-size:20pt;
+	color: #e5defc;
+	text-align:center;
+				display: inline-block;
+				height: 40px;
+				width:40px;
+				box-sizing: border-box;
+				border-radius: 20px;
+				margin: auto;
+				margin-top: 20px;
+				padding-top: 2pt;
+				border: .5px solid #fff;
+				background: #9c8bd9;
+				color: #fff;
+
+	}
+
+span.number2{
+	font-family: 'Amatic SC', cursive;
+	font-size:20pt;
+	color: #e5defc
+	}
+
+span.number3{
+	font-family: 'Amatic SC', cursive;
+	font-size:32pt;
+	color: #e5defc
+	}
+
 footer{
-	margin-top: 20px;
-	margin-bottom: 10px;
+	margin-top: 15px;
+	margin-bottom: 20px;
 	font-size:7pt;
-	margin-left:10%;
+	/*margin-left:10%;*/
+	text-align:center;
 	font-family: 'KoHo', sans-serif;
 }
