@@ -1,0 +1,278 @@
+
+a {
+        display: block; /* turn the inline element into a box */
+        position: fixed; /* position the anchor fixed to the viewport */
+        top: 0; /* have the top edge of the anchor touch the the top of the viewport */
+        bottom: 0;  /* have the bottom edge of the anchor touch the the bottom of the viewport */
+        left: 0;  /* have the left edge of the anchor touch the the left of the viewport */
+        right: 0;  /* have the right edge of the anchor touch the the right of the viewport */
+        z-index: 80; /* make sure the anchor is the highest thing in the stack order of all elements */
+}
+
+body{
+	position:relative;
+/*	margin:auto;*/
+}
+
+div.image{
+	margin: 0 auto;
+    max-width: 960px;
+/*	position:relative;*/
+}
+	
+img.coffee{
+	z-index: 90;
+	height:100%;
+	width:100%;
+	position:fixed;
+}
+
+div.text{
+
+	font-family: mrs-eaves, serif;
+	font-size:40pt;
+	font-weight: 400;
+	font-style: normal;
+	z-index: 100;   
+	position:absolute;
+	margin-top: 3%;
+	margin-left: 3%;
+	text-align: :left;
+}
+
+@media(min-width:100px){
+	img.coffee{
+		margin:auto;
+		float:left;
+		position:fixed;
+		margin-top: 50%;
+	  	width: 70%;
+		height:90%;
+		overflow: auto;
+		}
+	div.text{ 
+		line-height: 10pt;
+		margin:auto;
+		margin-left:10%;
+		margin-top: 40%;
+		position:absolute;
+		font-size: 10pt;
+}}
+
+@media(min-height:100px){
+	img.coffee{
+		margin:auto;
+		float:left;
+		position:fixed;
+		margin-top:0%;
+		margin-left:5%;
+	  	width: 70%;
+		height:90%;
+		overflow: auto;
+		}
+	div.text{ 
+		line-height: 15pt;
+		margin:auto;
+		margin-left:45%;
+		position:absolute;
+		font-size: 15pt;
+		margin-top: 10%
+}}
+@media(min-width:800px){
+	img.coffee{
+		margin:auto;
+		float:left;
+		position:fixed;
+		margin-top:80pt;
+		margin-left:10%;
+	  	width: 70%;
+		height:90%;
+		overflow: auto;
+		}
+	div.text{ 
+		line-height: 50pt;
+		margin:auto;
+		margin-left:43%;
+		position:absolute;
+		font-size: 20pt;
+		margin-top: 20%;
+}}
+
+@media(max-height:200px){
+	img.coffee{
+		margin:auto;
+		float:left;
+		position:fixed;
+		margin-top:0%;
+		margin-left:12%;
+	  	height:90%;
+		width:40%;
+		overflow: auto;
+		}
+	div.text{ 
+		line-height: 30pt;
+		margin:auto;
+		margin-left:43%;
+		position:absolute;
+		font-size: 10pt;
+		margin-top: 5%;
+}}
+
+/*@media(min-height:200px){
+	img.coffee{
+		margin:auto;
+		float:left;
+		position:fixed;
+		margin-top:0%;
+		margin-left:10%;
+	  	height:90%;
+		width:40%;
+		overflow: auto;
+		}
+	div.text{ 
+		line-height: 30pt;
+		margin:auto;
+		margin-left:43%;
+		position:absolute;
+		font-size: 20pt;
+		margin-top: 5%;
+}}*/
+
+/*@media(min-height:300px){
+	img.coffee{
+		margin:auto;
+		float:left;
+		position:fixed;
+		margin-top:-5%;
+		margin-left:10px;
+		 width: 70%;
+		height:90%;
+		overflow: auto;
+		}
+	div.text{ 
+		line-height: 30pt;
+		margin:auto;
+		margin-left:43%;
+		position:absolute;
+		font-size: 30pt;
+		margin-top: 5%;
+}}*/
+/*@media(min-height:00px){
+	img.coffee{
+		margin:auto;
+		float:left;
+		position:fixed;
+		margin-top:-5%;
+		margin-left:10px;
+	  	height: 100%;
+		width:60%;
+		overflow: auto;
+		}
+	div.text{ 
+		line-height: 30pt;
+		margin:auto;
+		margin-left:43%;
+		position:absolute;
+		font-size: 30pt;
+		margin-top: 5%;
+}}*/
+@media(min-width: 975px){
+	img.coffee{
+		margin:auto;
+		float:left;
+		position:fixed;
+		margin-top:0%;
+		margin-left:-55pt;
+	  	width: 70%;
+		height:90%;
+		overflow: auto;
+		}
+	div.text{ 
+		line-height: 40pt;
+		margin:auto;
+		margin-left:43%;
+		position:absolute;
+		margin-top: 10%;
+}}
+
+@media(min-width: 1300px){
+	img.coffee{
+		margin:auto;
+		float:right;
+		position:static;
+		margin-top:150pt;
+	  	width:1360px;
+		height:1460px;}
+	div.text{ 
+		line-height: 60pt;
+		margin:auto;
+		font-size:50pt;
+		height:1rem;
+		width:40%;
+		margin-left:55%;
+		position:absolute;
+		margin-top:15%;
+		text-align:left;
+}}
+
+@media(min-height:600px){
+	img.coffee{
+		margin:auto;
+		float:left;
+		position:fixed;
+		margin-top:0%;
+		margin-left:10%;
+	  	height:90%;
+		width:40%;
+		overflow: auto;
+		}
+	div.text{ 
+		line-height: 30pt;
+		margin:auto;
+		margin-left:45%;
+		margin-top:10%;
+		position:absolute;
+		font-size: 30pt;
+}}
+
+@media(min-width: 1500px){
+	img.coffee{
+		margin:auto;
+		float:left;
+		position:static;
+		margin-top:80pt;
+		margin-left:-55pt;
+	  	width: 70%;
+		height:90%;}
+	div.text{ 
+		line-height: 60pt;
+		margin:auto;
+	
+		height:1rem;
+		margin-left:400pt;
+		position:absolute;
+		margin-top: 170pt;
+}}
+
+@media(min-height:600px){
+	img.coffee{
+		margin:auto;
+		float:left;
+		position:fixed;
+		margin-top:-5%;
+		margin-left:-10%;
+	  	width: 70%;
+		height:90%;		
+		overflow: auto;
+		}
+	div.text{ 
+		line-height: 40pt;
+		margin:auto;
+		margin-left:45%;
+		margin-top:5%;
+		font-size: 40pt;
+		position:absolute;
+
+}}
+
+

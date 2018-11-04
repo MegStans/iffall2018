@@ -1,0 +1,251 @@
+
+a {
+        display: block; /* turn the inline element into a box */
+        position: fixed; /* position the anchor fixed to the viewport */
+        top: 0; /* have the top edge of the anchor touch the the top of the viewport */
+        bottom: 0;  /* have the bottom edge of the anchor touch the the bottom of the viewport */
+        left: 0;  /* have the left edge of the anchor touch the the left of the viewport */
+        right: 0;  /* have the right edge of the anchor touch the the right of the viewport */
+        z-index: 80; /* make sure the anchor is the highest thing in the stack order of all elements */
+}
+
+body{
+	position:relative;
+/*	margin:auto;*/
+}
+
+div.image{
+	margin: 0 auto;
+    max-width: 960px;
+/*	position:relative;*/
+}
+	
+img.art{
+	z-index: 90;
+	height:100%;
+	width:100%;
+	position:fixed;
+}
+
+div.text{
+
+	font-family: mrs-eaves, serif;
+	font-size:50pt;
+	font-weight: 400;
+	font-style: normal;
+	z-index: 100;   
+	position:absolute;
+  font-size: 72px;
+
+	margin-top: 3%;
+	margin-left: 3%;
+
+}
+
+	@media(min-width:100px){
+	img.art{
+		margin:auto;
+		position:static;
+		margin-top:90pt;
+		margin-left:10%;
+		margin-bottom: 20%;
+		margin-top: 30%;
+	  	width: 160px;
+		height:260px;}
+	div.text{ 
+		line-height: 30pt;
+		margin:auto;
+		height:200px;
+		width:10px;
+		margin-left:5%;
+		position:absolute;
+		margin-bottom: 10%;
+		margin-top: 5%;
+		font-size:20pt;
+		text-align:left;}}
+
+	@media(min-width:300px){
+	img.art{
+		margin:auto;
+		position:static;
+		margin-left:10%;
+	  	width: 60%;
+		height:50%;}
+	div.text{ 
+		line-height: 30pt;
+		margin:auto;
+		height:200px;
+		width:100px;
+		margin-left:5%;
+		position:absolute;
+		margin-top: 20pt;
+		font-size:20pt;
+		text-align:left;}
+	}
+	
+
+	@media(min-height:100px){
+	img.art{
+		margin:auto;
+		float:right;
+		position:static;
+		margin-right:10%;
+	  	width:50%;
+	  	margin-top:10%;
+		height:80%;
+	}
+	div.text{ 
+		line-height: 30pt;
+		margin:auto;
+		height:200px;
+		width:100px;
+		font-size:20pt;
+		margin-left:15%;
+		position:absolute;
+		margin-top:15px;
+		text-align:left;}
+	}
+
+@media(min-width:500px){
+	img.art{
+		margin:auto;
+		float:right;
+		position:static;
+		margin-right:10%;
+		margin-top:40%;
+	  	margin-left:10%;
+	  	width: 70%;
+		height:70%;}
+	div.text{ 
+		line-height: 50pt;
+		margin:auto;
+		height:200px;
+		width:100px;
+		font-size:50pt;
+		margin-left:5%;
+		position:absolute;
+		margin-top: 40pt;
+		text-align:left;}}
+
+@media(min-width:644px){
+	img.art{
+		margin:auto;
+		float:right;
+		position:static;
+		margin-right:10%;
+		margin-top:190pt;
+	 	margin-left:10%;
+	  	width: 70%;
+		height:70%;}
+	div.text{ 
+		line-height: 50pt;
+		margin:auto;
+		height:200px;
+		width:100px;
+		font-size:50pt;
+		margin-left:5%;
+		position:absolute;
+		margin-top: 40pt;
+		text-align:left;}}
+	@media(min-height:300px){
+	img.art{
+		margin:auto;
+		float:right;
+		position:static;
+		margin-right:10%;
+	  	width:50%;
+	  	margin-top:10%;
+		height:80%;
+	}
+	div.text{ 
+		line-height: 50pt;
+		margin:auto;
+		height:200px;
+		width:100px;
+		font-size:40pt;
+		margin-left:15%;
+		position:absolute;
+		margin-top: 15px;
+		text-align:left;}
+	}
+
+
+@media(min-width: 1024px){
+	img.art{
+		margin:auto;
+		float:right;
+		position:static;
+		margin-top:30%;
+	  	margin-left:10%;
+	  	width: 70%;
+		height:70%;}
+	div.text{ 
+		line-height: 90pt;
+		margin:auto;
+		height:200px;
+		width:100px;
+		font-size:80pt;
+		margin-left:10%;
+		position:absolute;
+		margin-top: 40pt;
+		text-align:left;}
+	}
+	@media(min-width: 1200px){
+	img.art{
+		margin:auto;
+		float:right;
+		position:static;
+		margin-top:30%;
+	  	margin-left:10%;
+	  	width: 80%;
+		height:80%;}
+	div.text{ 
+		line-height: 90pt;
+		margin:auto;
+		height:200px;
+		width:100px;
+		font-size:80pt;
+		margin-left:10%;
+		position:absolute;
+		margin-top: 40pt;
+		text-align:left;}
+	}
+@media(min-width: 1300px){
+	img.art{
+		margin:auto;
+		float:right;
+		position:static;
+		margin-top:150pt;
+	  	width: 90%;
+		height:90%;}
+	div.text{ 
+		line-height: 90pt;
+		margin:auto;
+		height:200px;
+		width:100px;
+		font-size:80pt;
+		margin-left:10%;
+		position:absolute;
+		margin-top: 40pt;
+		text-align:left;}
+	}
+@media(min-width: 1600px){
+	img.art{
+		margin:auto;
+		float:right;
+		position:static;
+		margin-top:150pt;
+	  	width: 90%;
+		height: 90%;}
+	div.text{ 
+		line-height: 90pt;
+		margin:auto;
+		height:200px;
+		width:100px;
+		font-size:100pt;
+		margin-left:15%;
+		position:absolute;
+		margin-top: 5%;
+		text-align:left;}
+	}
+
