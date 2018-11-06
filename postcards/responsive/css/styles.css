@@ -16,8 +16,7 @@ body{
 
 div.image{
 	margin: 0 auto;
-    max-width: 960px;
-/*	position:relative;*/
+	background-image: contain;
 }
 	
 img.art{
@@ -49,7 +48,7 @@ div.text{
 		margin-top:90pt;
 		margin-left:10%;
 		margin-bottom: 20%;
-		margin-top: 30%;
+		margin-top: 60%;
 	  	width: 160px;
 		height:260px;}
 	div.text{ 
@@ -60,51 +59,31 @@ div.text{
 		margin-left:5%;
 		position:absolute;
 		margin-bottom: 10%;
-		margin-top: 5%;
+		margin-top: 20%;
 		font-size:20pt;
 		text-align:left;}}
 
-	@media(min-width:300px){
+	@media(min-width:360px){
 	img.art{
 		margin:auto;
 		position:static;
+		margin-top: 30%;
 		margin-left:10%;
-	  	width: 60%;
-		height:50%;}
+	  	width: 300px;
+		height:400px;
+	}
 	div.text{ 
 		line-height: 30pt;
 		margin:auto;
 		height:200px;
 		width:100px;
-		margin-left:5%;
+		margin-left:10%;
 		position:absolute;
-		margin-top: 20pt;
-		font-size:20pt;
+		margin-top: 20%;
+		font-size:30pt;
 		text-align:left;}
 	}
-	
 
-	@media(min-height:100px){
-	img.art{
-		margin:auto;
-		float:right;
-		position:static;
-		margin-right:10%;
-	  	width:50%;
-	  	margin-top:10%;
-		height:80%;
-	}
-	div.text{ 
-		line-height: 30pt;
-		margin:auto;
-		height:200px;
-		width:100px;
-		font-size:20pt;
-		margin-left:15%;
-		position:absolute;
-		margin-top:15px;
-		text-align:left;}
-	}
 
 @media(min-width:500px){
 	img.art{
@@ -112,31 +91,31 @@ div.text{
 		float:right;
 		position:static;
 		margin-right:10%;
-		margin-top:40%;
+		margin-top:20%;
 	  	margin-left:10%;
-	  	width: 70%;
-		height:70%;}
+	  	width: 400px;
+		height:500px;}
 	div.text{ 
-		line-height: 50pt;
+		line-height: 40pt;
 		margin:auto;
 		height:200px;
 		width:100px;
-		font-size:50pt;
+		font-size:40pt;
 		margin-left:5%;
 		position:absolute;
 		margin-top: 40pt;
 		text-align:left;}}
 
-@media(min-width:644px){
+@media(min-width:700px){
 	img.art{
 		margin:auto;
 		float:right;
 		position:static;
 		margin-right:10%;
-		margin-top:190pt;
+		margin-top:20%;
 	 	margin-left:10%;
-	  	width: 70%;
-		height:70%;}
+	  	width: 500px;
+		height:600px}
 	div.text{ 
 		line-height: 50pt;
 		margin:auto;
@@ -147,7 +126,28 @@ div.text{
 		position:absolute;
 		margin-top: 40pt;
 		text-align:left;}}
-	@media(min-height:300px){
+	@media(min-width:900px){
+	img.art{
+		margin:auto;
+		float:right;
+		position:static;
+		margin-right:10%;
+		margin-top:10%;
+	 	margin-left:10%;
+	  	width: 600px;
+		height:700px}
+	div.text{ 
+		line-height: 50pt;
+		margin:auto;
+		height:200px;
+		width:100px;
+		font-size:60pt;
+		margin-left:10%;
+		position:absolute;
+		margin-top: 10%;
+		text-align:left;}}
+
+/*	@media(min-height:300px){
 	img.art{
 		margin:auto;
 		float:right;
@@ -167,7 +167,7 @@ div.text{
 		position:absolute;
 		margin-top: 15px;
 		text-align:left;}
-	}
+	}*/
 
 
 @media(min-width: 1024px){
@@ -175,22 +175,46 @@ div.text{
 		margin:auto;
 		float:right;
 		position:static;
-		margin-top:30%;
-	  	margin-left:10%;
-	  	width: 70%;
-		height:70%;}
+		margin-right:10%;
+		margin-top:5%;
+	 	margin-left:10%;
+	 	margin-bottom: 5%;
+	  	width: 700px;
+		height:800px}
 	div.text{ 
-		line-height: 90pt;
+		line-height: 50pt;
+		margin:auto;
+		height:200px;
+		width:100px;
+		font-size:70pt;
+		margin-left:15%;
+		position:absolute;
+		margin-top: 10%;
+		text-align:left;}}
+
+@media(min-width: 1500px){
+	img.art{
+		margin:auto;
+		float:right;
+		position:static;
+		margin-right:10%;
+		margin-top:10%;
+	 	margin-left:10%;
+	 	margin-bottom: 5%;
+	  	width: 700px;
+		height:800px}
+	div.text{ 
+		line-height: 70pt;
 		margin:auto;
 		height:200px;
 		width:100px;
 		font-size:80pt;
-		margin-left:10%;
+		margin-left:20%;
 		position:absolute;
-		margin-top: 40pt;
-		text-align:left;}
-	}
-	@media(min-width: 1200px){
+		margin-top: 10%;
+		text-align:left;}}
+	
+/*	@media(min-width: 1200px){
 	img.art{
 		margin:auto;
 		float:right;
@@ -209,8 +233,8 @@ div.text{
 		position:absolute;
 		margin-top: 40pt;
 		text-align:left;}
-	}
-@media(min-width: 1300px){
+	}*/
+/*@media(min-width: 1300px){
 	img.art{
 		margin:auto;
 		float:right;
@@ -228,22 +252,24 @@ div.text{
 		position:absolute;
 		margin-top: 40pt;
 		text-align:left;}
-	}
+	}*/
 @media(min-width: 1600px){
 	img.art{
 		margin:auto;
 		float:right;
 		position:static;
-		margin-top:150pt;
-	  	width: 90%;
-		height: 90%;}
+		margin-top:0%;
+		margin-right:5%;
+		margin-bottom: 5%;
+	  	width: 900px;
+		height: 1000px;}
 	div.text{ 
-		line-height: 90pt;
+		line-height: 80pt;
 		margin:auto;
 		height:200px;
 		width:100px;
-		font-size:100pt;
-		margin-left:15%;
+		font-size:90pt;
+		margin-left:20%;
 		position:absolute;
 		margin-top: 5%;
 		text-align:left;}
