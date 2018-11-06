@@ -43,55 +43,74 @@ div.text{
 		margin:auto;
 		float:left;
 		position:fixed;
-		margin-top: 20%;
+		margin-top: 5%;
 	  	width: 350px;
-		height:450px;
+		height:400px;
 		overflow: auto;
 		}
 	div.text{ 
 		line-height: 20pt;
 		margin:auto;
-		margin-left:15%;
+		margin-left:10%;
 		margin-top: 20%;
 		position:absolute;
-		font-size: 20pt;
+		font-size: 15pt;
 }}
-@media(min-width:400px){
+@media(min-width:100px){
 	img.coffee{
 		margin:auto;
 		float:left;
 		position:fixed;
-		margin-top: 20%;
+		margin-top: 5%;
 	  	width: 350px;
-		height:450px;
+		height:400px;
 		overflow: auto;
 		}
 	div.text{ 
 		line-height: 20pt;
 		margin:auto;
-		margin-left:15%;
+		margin-left:25%;
 		margin-top: 20%;
 		position:absolute;
-		font-size: 20pt;
+		font-size: 17pt;
 }}
+
 @media(min-width:360px){
 	img.coffee{
 		margin:auto;
 		float:left;
 		position:fixed;
-		margin-top: 10%;
-	  	width: 450px;
-		height:550px;
+		margin-top: 0%;
+	  	width: 420px;
+		height:500px;
 		overflow: auto;
 		}
 	div.text{ 
-		line-height: 30pt;
+		line-height: 25pt;
+		margin:auto;
+		margin-left:15%;
+		margin-top: 15%;
+		font-size:20pt;
+		position:absolute;
+	}}
+@media(min-width:400px){
+	img.coffee{
+		margin:auto;
+		float:left;
+		position:fixed;
+		margin-top: 5%;
+	  	width: 350px;
+		height:450px;
+		overflow: auto;
+		}
+	div.text{ 
+		line-height: 20pt;
 		margin:auto;
 		margin-left:15%;
 		margin-top: 20%;
-		font-size:25pt;
 		position:absolute;
-	}}
+		font-size: 20pt;
+}}
 	@media(min-width:500px){
 	img.coffee{
 		margin:auto;
@@ -172,8 +191,9 @@ div.text{
 		margin:auto;
 		position:static;
 		margin-left:5%;
-	  	width:800px;
-		height:900px;}
+		margin-top:-5%;
+	  	width:700px;
+		height:750px;}
 	div.text{ 
 		line-height: 45pt;
 		margin:auto;
@@ -181,7 +201,7 @@ div.text{
 		height:1rem;
 		margin-left:40%;
 		position:absolute;
-		margin-top:15%;
+		margin-top:5%;
 		text-align:left;
 }}
 @media(min-width: 1550px){
@@ -189,9 +209,9 @@ div.text{
 		margin:auto;
 		position:static;
 		margin-left:5%;
-		margin-top:5%;
-	  	width:950px;
-		height:1050px;}
+		margin-top:-10%;
+	  	width:850px;
+		height:950px;}
 	div.text{ 
 		line-height: 60pt;
 		margin:auto;
@@ -199,7 +219,7 @@ div.text{
 		height:1rem;
 		margin-left:40%;
 		position:absolute;
-		margin-top:15%;
+		margin-top:5%;
 		text-align:left;
 }}
 /*
