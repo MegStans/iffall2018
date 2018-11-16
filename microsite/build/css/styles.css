@@ -1,0 +1,231 @@
+body{
+	background-color:white;
+	color: #01CCFE;
+	font-family: 'Raleway', sans-serif;
+	margin:0000;
+	padding:0000;
+}
+
+body.pages{
+	color:white;
+	background-color: #01CCFE;
+}
+
+
+div.buttonbox {
+	margin:auto;
+	background-color:#082759;
+	height:80px;
+	position:relative;
+	padding:0;
+	;
+
+}
+
+
+div.quote{
+	margin:auto;
+	font-size:20pt;
+	margin-top:-100px;
+	position:absolute;
+	display: inline-block;
+	margin-left: 10%;
+	font-weight:bold;
+}
+
+div.ellenname{
+	margin:auto;
+	font-size:15pt;
+	margin-top:-55px;
+	position:absolute;
+	font-weight:lighter;
+	display: inline-block;
+	margin-left: 50%;
+}
+div.buttons {
+				display: inline-block;
+				color: #fff;
+				font-size: 20px;
+				font-family: 'raleway', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+				position:absolute;
+				font-weight:lighter;
+			}
+
+			div.buttons:hover {
+				color:  #01CCFE;
+				animation: ease-in 0.5s; 
+    animation-iteration-count: infinite;
+			}
+div.buttons1 {
+				display: inline-block;
+				color:  #01CCFE;
+				font-size: 20px;
+				font-family: 'raleway', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+				position:absolute;
+				font-weight:lighter;
+			}
+
+			div.buttons1:hover {
+				color: white;
+			}
+
+div#home{
+margin-left:23%;
+margin-top:30px;
+}
+
+div#career{
+margin-left:38%;
+margin-top:30px;
+}
+
+div#activism{
+margin-left:53%;
+margin-top:30px;	
+}
+
+div#earlylife{
+margin-left:70%;
+margin-top:30px}
+
+div#sources{
+margin-left:87%;
+margin-top:30px;
+	
+}
+
+img#ellen{
+	width:100%;
+	margin:auto;
+	position:relative;
+}
+img#ellenlogo{
+	width:130px;
+	margin:auto;
+	position:absolute;
+	margin-top:10px;
+	margin-left: 3%;
+}
+
+div.text{
+
+	position:absolute;
+	width:45%;
+	font-size:12pt;
+	line-height: 16pt; 
+	height:5rem;
+	margin-top: 8%;
+	margin-left:50%;
+}
+
+div.textsources{
+
+	position:absolute;
+	width:45%;
+	font-size:9pt;
+	line-height: 10pt; 
+	height:5rem;
+	margin-top: 8%;
+	margin-left:50%;
+}
+h2{
+	font-size:12pt;
+}
+img.pageimage{
+	position:absolute;
+	width:45%;
+	margin-left:35px;
+	margin-top:140px;
+}
+
+img#oprah{
+	margin-top:505px;
+}
+h1{
+	font-weight: lighter;
+}
+
+img#puppy{
+	margin-top:920px;
+}
+
+img#show{
+	margin-top:1300px;
+}
+img#oscar2{
+	margin-top:1630px;
+}
+img#oscar4{
+	margin-top:1970px;
+}
+img#games{
+	margin-top:2310px;
+}
+img#pet{
+	margin-top:495px;
+}
+img#raccoon{
+	margin-top:890px;
+}
+
+/*footer.career{
+display:block;
+position: relative;
+bottom: 0;
+margin-top:158%;
+margin-bottom: 1%;
+margin-left:1%;
+color:#cce1f1;
+height: 15px;
+font-size:9pt;
+
+}
+footer.home{
+display:block;
+position: relative;
+bottom: 0;
+margin-top:0%;
+margin-bottom: 0%;
+margin-left:1%;
+color:#cce1f1;
+height: 15px;
+font-size:9pt;
+
+}
+footer.sources{
+display:block;
+position: relative;
+bottom: 0;
+margin-top:0%;
+margin-bottom: 0%;
+margin-left:1%;
+color:#cce1f1;
+height: 15px;
+font-size:9pt;
+}
+footer.activism{
+display:block;
+position: relative;
+bottom: 0;
+margin-top:98%;
+margin-bottom: 1%;
+margin-left:1%;
+color:#cce1f1;
+height: 15px;
+font-size:9pt;
+}
+footer.earlylife{
+display:block;
+position: relative;
+bottom: 0;
+margin-top:54%;
+margin-bottom: 1%;
+margin-left:1%;
+color:#cce1f1;
+height: 15px;
+font-size:9pt;
+}*/
