@@ -1,180 +1,282 @@
 body{
 	background-color:white;
 	color: #01CCFE;
+	color:#212b41;
 	font-family: 'Raleway', sans-serif;
-	margin:0000;
-	padding:0000;
+	position:relative;
+
 }
 
-body.pages{
-	color:white;
-	background-color: #01CCFE;
-}
 
 
 div.buttonbox {
 	margin:auto;
-	background-color:#082759;
-	height:80px;
+	box-shadow: 5px 5px #009ac6,7px 7px #009ac6, 8px 8px #29bce6,9px 9px #29bce6;
+	height:9%;
 	position:relative;
+	background-color: #e3f8fe;
 	padding:0;
+	margin-bottom: 5%
 	;
 
 }
 
-
 div.quote{
-	margin:auto;
+/*	margin:auto;*/
 	font-size:20pt;
-	margin-top:-120px;
-	position:absolute;
-	display: inline-block;
+	margin-top:50%;
+	width:80%;
+/*	z-index:1;*/
+	color: #31bbe7;
 	margin-left: 10%;
 	font-weight:bold;
+	z-index: 1;
 }
 
 div.ellenname{
 	margin:auto;
 	font-size:15pt;
-	margin-top:-75px;
-	position:absolute;
-	font-weight:lighter;
-	display: inline-block;
-	margin-left: 50%;
+	font-weight:300;
+	margin-top:1%;
+	margin-bottom: 2%;
+	margin-left: 54%;
+	line-height: 16pt;
+	color:  #01CCFE;
+	z-index: 1;
 }
 div.buttons {
-				display: inline-block;
-				color: #fff;
-				font-size: 20px;
+				/*display: inline-block;*/
+				color: #01CCFE;
+				font-size: 150%;
 				font-family: 'raleway', sans-serif;
 				font-weight: bold;
 				text-decoration: none;
 				position:absolute;
-				font-weight:lighter;
+				font-weight:300;
 			}
 
 			div.buttons:hover {
-				color:  #01CCFE;
-				animation: ease-in 0.5s; 
-    animation-iteration-count: infinite;
+				color:  #212b41;
+				animation-name: buttons;
+				animation-duration: 2s;
+
 			}
+
 div.buttons1 {
-				display: inline-block;
+			/*	display: inline-block;*/
 				color:  #01CCFE;
-				font-size: 20px;
+				font-size: 150%;
 				font-family: 'raleway', sans-serif;
 				font-weight: bold;
 				text-decoration: none;
 				position:absolute;
-				font-weight:lighter;
+				font-weight:300;
 			}
 
 			div.buttons1:hover {
-				color: white;
+				color: #212b41;
+				animation-name: buttons;
+				animation-duration: 2s;
+
 			}
 
-div#home{
-margin-left:23%;
-margin-top:30px;
+@keyframes ellen {
+    0% {opacity: 0.0;
+    filter: alpha(opacity=50);}
+    50% {opacity: 1.0;
+    filter: alpha(opacity=50);}
+}
+
+@keyframes buttons {
+    0% {color:#01CCFE;}
+    50% {color:#008fb8;}
+}
+
+img#ellenlogo{
+	width:10%;
+	margin:auto;
+	margin-top:1%;
+	margin-left: 7%;
 }
 
 div#career{
-margin-left:38%;
-margin-top:30px;
+margin-left:25%;
+margin-top:3%;
 }
 
 div#activism{
-margin-left:53%;
-margin-top:30px;	
+margin-left:42%;
+margin-top:3%;	
 }
 
 div#earlylife{
-margin-left:70%;
-margin-top:30px}
+margin-left:60%;
+margin-top:3%}
 
 div#sources{
-margin-left:87%;
-margin-top:30px;
+margin-left:80%;
+margin-top:3%;
 	
 }
-
-img#ellen{
+div.ellenimages{
+	position:relative;
+	margin:0
+}
+img#ellen1{
 	width:100%;
 	margin:auto;
 	position:relative;
 }
-img#ellenlogo{
-	width:130px;
+img#ellen{
+	width:100%;
 	margin:auto;
 	position:absolute;
-	margin-top:10px;
-	margin-left: 3%;
+	opacity:0%;
+
+}
+div.mainellen{
+	width:100%;
+	position:absolute;
+
+}
+div.animationE{
+	width:100%;
+	position:absolute;
+		opacity:0.0;
+	 animation-name: ellen;
+    animation-duration: 3s;
+   animation-delay: 1s;
+ animation-direction: alternate;
 }
 
-div.text{
-
+div.animationL{
+	width:100%;
 	position:absolute;
+		opacity:0.0;
+	 animation-name: ellen;
+    animation-duration: 3s;
+   animation-delay: 3s;
+ animation-direction: alternate;
+}
+div.animationN{
+	width:100%;
+	position:absolute;
+	opacity:0.0;
+	 animation-name: ellen;
+    animation-duration: 3s;
+   animation-delay: 7s;
+ animation-direction: alternate;
+}
+
+h1{
+	margin-left:25%;
+	color:#01CCFE;
+}
+h1.small{
+	margin-left:30%;
+	color:#01CCFE;
+}
+
+h1.big{
+	margin-left:20%;
+	color:#01CCFE;
+}
+div.text{
 	width:45%;
+	margin-top: -35%;
+	margin-left:50%;
+	margin-bottom:5%;
 	font-size:12pt;
 	line-height: 16pt; 
-	height:5rem;
-	margin-top: 8%;
-	margin-left:50%;
+	display:inline-block;
 }
-
+div.text1{
+	width:45%;
+	margin-top:-29%;
+	margin-left:50%;
+	margin-bottom:5%;
+	font-size:12pt;
+	line-height: 16pt; 
+	display:inline-block;
+}
+div.text4{
+	width:45%;
+	margin-top:-30%;
+	margin-left:50%;
+	margin-bottom:5%;
+	font-size:12pt;
+	line-height: 16pt; 
+	display:inline-block;
+}
+div.text2{
+	width:45%;
+	margin-top: -26%;
+	margin-left:50%;
+	margin-bottom:5%;
+	font-size:12pt;
+	line-height: 16pt; 
+	display:inline-block;
+}
+div.text3{
+	width:45%;
+	margin-top: -25%;
+	margin-left:50%;
+	margin-bottom:5%;
+	font-size:12pt;
+	line-height: 16pt; 
+	display:inline-block;
+}
 div.textsources{
-
-	position:absolute;
 	width:45%;
 	font-size:9pt;
 	line-height: 10pt; 
-	height:5rem;
-	margin-top: 8%;
+	margin-top: -26%;
 	margin-left:50%;
+	margin-bottom:5%;
 }
+
 h2{
 	font-size:12pt;
+	color:#01CCFE;
 }
 img.pageimage{
-	position:absolute;
 	width:45%;
-	margin-left:35px;
-	margin-top:140px;
+	margin-top:5%;
+	margin-left:2%;
+	display:inline-block;
+
+
+}
+div.sizing{
+	width:100%;
+	}
+
+img#charity{margin-top:1%;
 }
 
-img#oprah{
-	margin-top:505px;
-}
-h1{
-	font-weight: lighter;
-}
+img#early{
+	margin-top:1%;
 
+
+}
 img#puppy{
-	margin-top:920px;
 }
 
-img#show{
-	margin-top:1300px;
+img#oscar{margin-top:0%;
 }
-img#oscar2{
-	margin-top:1630px;
+img#oscar2{margin-top:0%;
 }
-img#oscar4{
-	margin-top:1970px;
+img#oscar4{margin-top:0%;
 }
 img#games{
-	margin-top:2310px;
 }
-img#pet{
-	margin-top:495px;
+img#pet{margin-top:2%;
 }
 img#dog{
-	margin-top:885px;
 
 }
 footer{
-	margin-left:1%;
 	color:#b2daf1;
 	font-size:10pt;
-	position:relative;
+	position:absolute;
 }
