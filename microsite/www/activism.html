@@ -3,10 +3,25 @@
 <head>
 	<title>Activism</title>
 	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600" rel="stylesheet">
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<link href="css/styles.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+
+			$( document ).ready(function() {			
+			    
+				$(".controls").click(function(){		
+					$("#drawer").toggleClass("open");	
+					console.log("Toggled the class!");	
+				});
+
+			});
+
+		</script>
 </head>
 <body class="pages">
+	<div class="body">
 	<div class="buttonbox">
 		
 		<a href="index.html">
@@ -45,6 +60,48 @@
 		</a>
 	</div>
 
+	
+	<div id="drawer">
+			<button class="controls"></button>
+			<div class="contents">
+					
+		<a href="index.html">
+		<div class="buttons" id="home">
+			<img id="ellenlogo" src="images/ellen.png" alt="Ellen Logo"></img>
+		</div>
+			
+		</a>
+
+		<a href="earlylife.html">
+		<div class="buttons" id="earlylife">
+			EARLY LIFE
+		</div>
+			
+		</a>
+
+			<a href="career.html">
+		<div class="buttons" id="career">
+				CAREER
+		</div>
+			
+		</a>
+
+			<a href="activism.html">
+		<div class="buttons" id="activism">
+			ACTIVISM
+		</div>
+			
+		</a>
+
+			<a href="sources.html">
+		<div class="buttons" id="sources">
+			SOURCES
+		</div>
+			
+		</a>
+			</div>
+		</div>
+
 
 <!-- <img class="pageimage" id="dog" src="images/dog.jpg" alt="Ellen Animals"></img> -->
 <!-- <img class="pageimage" id="raccoon" src="images/ellenraccoon.jpg" alt="Ellen Animals"></img> -->
@@ -66,13 +123,14 @@ DeGeneres served as campaign ambassador to Farm Sanctuary's Adopt-A-Turkey Proje
 <div class="sizing">
 <img class="pageimage" id="pet" src="images/pet.jpg" alt="Ellen Animals"></img>
 <div class="text4">
-In November 2011, Secretary of State Hillary Clinton named her a special envoy for Global AIDS Awareness.[86] On December 3, 2011, DeGeneres opened the show at the David Lynch Foundation's 3rd annual "Change Begins Within" gala at the Los Angeles County Museum of Art to raise funds to bring Transcendental Meditation to at-risk populations suffering from epidemic levels of chronic stress and stress-related disorders. She says: "TM is the only time I have that stillness… it gives me this peaceful feeling, and I love it so much. I can’t say enough good things about it. All the benefits that you can achieve from sitting still and going within—it really is a beautiful experience. David Lynch is such a wonderful man to start this foundation to help people."
-<br>
-In November 2017, it was announced that President Donald Trump would begin allowing the importation of elephant trophies from Africa. DeGeneres, an animal activist, created a hashtag campaign in partnership with her brand, ED Ellen DeGeneres, to donate to the David Sheldrick Wildlife Trust. DeGeneres also created a t-shirt with her brand whose proceeds also go to the organization.
-<br>
-In January 2018, for Ellen's 60th birthday, Ellen's wife, Portia de Rossi, gifted Ellen a permanent gorilla home in Rwanda built in her namesake for the Digit Fund. This gift was part of a new arm of the Digit Fund now called the "Ellen DeGeneres Wildlife Fund.
+<p>In November 2011, Secretary of State Hillary Clinton named her a special envoy for Global AIDS Awareness.[86] On December 3, 2011, DeGeneres opened the show at the David Lynch Foundation's 3rd annual "Change Begins Within" gala at the Los Angeles County Museum of Art to raise funds to bring Transcendental Meditation to at-risk populations suffering from epidemic levels of chronic stress and stress-related disorders. She says: "TM is the only time I have that stillness… it gives me this peaceful feeling, and I love it so much. I can’t say enough good things about it. All the benefits that you can achieve from sitting still and going within—it really is a beautiful experience. David Lynch is such a wonderful man to start this foundation to help people."</p>
+
+<p>In November 2017, it was announced that President Donald Trump would begin allowing the importation of elephant trophies from Africa. DeGeneres, an animal activist, created a hashtag campaign in partnership with her brand, ED Ellen DeGeneres, to donate to the David Sheldrick Wildlife Trust. DeGeneres also created a t-shirt with her brand whose proceeds also go to the organization.</p>
+
+<p>In January 2018, for Ellen's 60th birthday, Ellen's wife, Portia de Rossi, gifted Ellen a permanent gorilla home in Rwanda built in her namesake for the Digit Fund. This gift was part of a new arm of the Digit Fund now called the "Ellen DeGeneres Wildlife Fund.</p>
 	</div>
 </div>
 	<footer> Ellen Degeneres Site | Art Director: Hanna Goldstein | Designer: Megan Stansbury | IFFALL2018</footer>
+	</div>
 </body>
 </html>

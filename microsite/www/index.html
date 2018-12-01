@@ -1,89 +1,145 @@
 <!DOCTYPE!>
 <html>
-<head>
-	<title>Ellen Degeneres Website</title>
-	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<link href="css/styles.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600" rel="stylesheet">
-</head>
-<body>
-	<div class="buttonbox">
-		
+	<head>
+		<title>Ellen Degeneres Microsite</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<link href="css/styles.css" rel="stylesheet">
+		<meta charset="utf-8">
+		<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+			<script>
 
-		<a href="index.html">
-		<div class="buttons1" id="home">
-		<img id="ellenlogo" src="images/ellen.png" alt="Ellen Logo"></img>
+			$( document ).ready(function() {			
+			    
+				$(".controls").click(function(){		
+					$("#drawer").toggleClass("open");	
+					console.log("Toggled the class!");	
+				});
+
+			});
+
+		</script>
+
+
+	</head>
+	<body>
+		<div class="body">
+			<div class="buttonbox">
+					
+
+					<a href="index.html">
+					<div class="buttons1" id="home">
+					<img id="ellenlogo" src="images/ellen.png" alt="Ellen Logo"></img>
+					</div>
+						
+					</a>
+
+					<a href="earlylife.html">
+					<div class="buttons1" id="earlylife">
+						EARLY LIFE
+					</div>
+						
+					</a>
+
+						<a href="career.html">
+					<div class="buttons1" id="career">
+						CAREER
+					</div>
+						
+					</a>
+
+						<a href="activism.html">
+					<div class="buttons1" id="activism">
+						ACTIVISM
+					</div>
+						
+					</a>
+
+						<a href="sources.html">
+					<div class="buttons1" id="sources">
+						SOURCES
+					</div>
+						
+					</a>
+				</div>	
+
+				<div id="drawer">
+					<button class="controls"></button>
+				<div class="contents">
+									
+					<a href="index.html">
+					<div class="buttons" id="home">
+						<img id="ellenlogo" src="images/ellen.png" alt="Ellen Logo"></img>
+					</div>
+						
+					</a>
+
+					<a href="earlylife.html">
+					<div class="buttons" id="earlylife">
+						EARLY LIFE
+					</div>
+						
+					</a>
+
+						<a href="career.html">
+					<div class="buttons" id="career">
+							CAREER
+					</div>
+						
+					</a>
+
+						<a href="activism.html">
+					<div class="buttons" id="activism">
+						ACTIVISM
+					</div>
+						
+					</a>
+
+						<a href="sources.html">
+					<div class="buttons" id="sources">
+						SOURCES
+					</div>
+						
+					</a>
+				</div>
+				</div>
+
+			<div class="ellenimages">
+				<div class="mainellen">
+				<img id="ellen1" src="images/ellenlogo1.png" alt="Ellen Logo Fun"></img>
+				</div><div class="animationE">
+				<img id="ellen" src="images/ellenlogo2.png" alt="Ellen Logo Fun"></img>
+				</div>	<div class="animationL">
+				<img id="ellen" src="images/ellenlogo3.png" alt="Ellen Logo Fun"></img>
+				</div><div class="animationN">
+				<img id="ellen" src="images/ellenlogo4.png" alt="Ellen Logo Fun"></img></div>
+				<div class="mainellen">
+				<img id="ellen2" src="images/ellenlogo.png" alt="Ellen Logo Fun"></img>
+				</div>
+			</div>
+				<div class="quotes">
+					<div class="quote">
+					 "Do things that make you happy within the confines of the legal system."
+					</div>
+					<div class="quote3">
+					 "Procrastinate now, don't put it off."
+					 </div>
+					<div class="quote2">
+					 "Sometimes you can't see yourself clearly until you see yourself through the eyes of others."
+					</div>
+						<div class="quote1">
+					 "People always ask me, 'Were you funny as a child?' Well, no I was an accountant."
+					</div>
+					<div class="quote4">
+					 "Do things that make you happy within the confines of the legal system."
+					</div>
+				</div>
+
+				<div class="ellenname">
+				 Ellen Degeneres, talk-show host and activist
+				</div>
+
+				<footer class="index"> Ellen Degeneres Site | Art Director: Hanna Goldstein | Designer: Megan Stansbury | IFFALL2018 </footer>
 		</div>
-			
-		</a>
-
-		<a href="earlylife.html">
-		<div class="buttons1" id="earlylife">
-			EARLY LIFE
-		</div>
-			
-		</a>
-
-			<a href="career.html">
-		<div class="buttons1" id="career">
-			CAREER
-		</div>
-			
-		</a>
-
-			<a href="activism.html">
-		<div class="buttons1" id="activism">
-			ACTIVISM
-		</div>
-			
-		</a>
-
-			<a href="sources.html">
-		<div class="buttons1" id="sources">
-			SOURCES
-		</div>
-			
-		</a>
-	</div>	
-
-<div class="ellenimages">
-	<div class="mainellen">
-	<img id="ellen1" src="images/ellenlogo1.png" alt="Ellen Logo Fun"></img>
-	</div><div class="animationE">
-	<img id="ellen" src="images/ellenlogo2.png" alt="Ellen Logo Fun"></img>
-	</div>	<div class="animationL">
-	<img id="ellen" src="images/ellenlogo3.png" alt="Ellen Logo Fun"></img>
-	</div><div class="animationN">
-	<img id="ellen" src="images/ellenlogo4.png" alt="Ellen Logo Fun"></img></div>
-	<div class="mainellen">
-	<img id="ellen2" src="images/ellenlogo.png" alt="Ellen Logo Fun"></img>
-	</div>
-</div>
-	<div class="quotes">
-		<div class="quote">
-		 "Do things that make you happy within the confines of the legal system."
-		</div>
-		<div class="quote1">
-		 "Procrastinate now, don't put it off."
-		 </div>
-		<div class="quote2">
-		 "Sometimes you can't see yourself clearly until you see yourself through the eyes of others."
-		</div>
-			<div class="quote3">
-		 "People always ask me, 'Were you funny as a child?' Well, no I was an accountant."
-		</div>
-		<div class="quote4">
-		 "Do things that make you happy within the confines of the legal system."
-		</div>
-	</div>
-
-	<div class="ellenname">
-	 Ellen Degeneres, talk-show host and activist
-	</div>
-
-</body>
-<footer class="index"> Ellen Degeneres Site | Art Director: Hanna Goldstein | Designer: Megan Stansbury | IFFALL2018 </footer>
-
-
+	</body>
 </html>
-
