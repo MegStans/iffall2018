@@ -2,23 +2,26 @@ body{
 	background-color:white;
 	color: #01CCFE;
 	color:#212b41;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Raleway', sans-serif;}
 /*	position:relative;*/
 
-}
-div#drawer{
-	display:none;
-}
 
 div.body{
 
 	min-height:100%;
 	position:relative;
-	padding-bottom: 5px;
+}
+
+div.body1{
+
+	height:100%;
+	position:relative;
+}
+
+div#drawer{
+	opacity: 0.0;
 }
 div.buttonbox {
-/*	margin:auto;
-*/	/*box-shadow: 5px 5px #009ac6,7px 7px #009ac6, 8px 8px #29bce6,9px 9px #29bce6;*/
 	height:8%;
 	position:relative;
 	width:100%;
@@ -35,25 +38,23 @@ div.quote{
 	font-weight:bold;
 	z-index: 1;
 	opacity: 0.0;
-/*	animation-name: quotes;*/
 	position:absolute;
-/*	animation-delay:0s;
-	animation-duration: 5s;*/
+
 }
 
 div.quotes{
 	font-size:25pt;
-	margin-top:50%;
+	margin-top:43%;
 	width:80%;
 	color: #31bbe7;
 	margin-left: 15%;
 	font-weight:bold;
-	margin-bottom:20%;
+/*	margin-bottom:20%;*/
 	z-index: 1;
 	position:relative;
 }
 div.ellenname{
-/*	margin:auto;*/
+
 	font-size:18pt;
 	font-weight:300;
 	margin-top:10%;
@@ -245,12 +246,15 @@ div.animationN{
  animation-direction: alternate;}
 
 h1{
-	margin-left:25%;
+	margin-left:2%;
+	color:#01CCFE;
+	font-size:22pt;}
+h1.sources{
+	margin-left:2%;
 	color:#01CCFE;
 	font-size:22pt;}
 
-/*h1.small{margin-left:30%;}
-h1.big{margin-left:20%;}*/
+
 
 div.text{
 	width:45%;
@@ -263,7 +267,7 @@ div.text{
 }
 div.text1{
 	width:45%;
-	margin-top:-29%;
+	margin-top:-31%;
 	margin-left:50%;
 	margin-bottom:5%;
 	font-size:11pt;
@@ -279,9 +283,18 @@ div.text4{
 	line-height: 15pt; 
 	display:inline-block;}
 
+div.text5{
+	width:45%;
+	margin-top:-33%;
+	margin-left:50%;
+	margin-bottom:5%;
+	font-size:11pt;
+	line-height: 15pt; 
+	display:inline-block;}
+
 div.text2{
 	width:45%;
-	margin-top: -26%;
+	margin-top: -28%;
 	margin-left:50%;
 	margin-bottom:5%;
 	font-size:11pt;
@@ -290,7 +303,7 @@ div.text2{
 
 div.text3{
 	width:45%;
-	margin-top: -25%;
+	margin-top: -28%;
 	margin-left:50%;
 	margin-bottom:5%;
 	font-size:11pt;
@@ -321,7 +334,7 @@ div.sizing{
 
 img#charity{margin-top:1%;}
 	img#early{margin-top:1%;}
-	img#oscar{margin-top:0%;}
+	img#dance{margin-top:0%;}
 	img#oscar2{margin-top:0%;}
 	img#oscar4{margin-top:0%;}
 	img#pet{margin-top:2%;}
@@ -330,26 +343,16 @@ footer{
 	color:#b2daf1;
 	font-size:10pt;
 	margin:auto;
-/*	bottom:0;*/
-	left:0;
-	position:absolute;}
-footer.early{
-	color:#b2daf1;
-	font-size:10pt;
 	bottom:0;
 	left:0;
 	position:absolute;}
-}
+
+	div.pagesources{
+				margin-left:50%;
+				margin-top:-27%}
+
+
 	
-footer.index{
-	color:#b2daf1;
-	font-size:10pt;
-	bottom:0;
-	left:0;
-	position:absolute;}
-div.pagesources{
-	margin-left:50%;
-	margin-bottom:10%;}
 
 
 
@@ -359,66 +362,55 @@ div.pagesources{
 
 
 
-@media (max-width:1366px){
+@media (max-width:1466px){
 
-	body{
-	background-color:white;
-	color: #01CCFE;
-	color:#212b41;
-	font-family: 'Raleway', sans-serif;
-/*	position:relative;*/
+	}
 
-}
-div#drawer{
-	display:none;
-}
 
-div.body{
 
-	min-height:110%;
-	position:relative;
-	padding-bottom: 5px;
-}
-div.buttonbox {
+@media (max-width:1330px){
 
-	height:9%;
-	position:relative;
-	width:100%;
-	margin:0;
-	background-color: #e3f8fe;
-	padding:0;
-	margin-bottom:6%;
 
 }
 
-div.quote{
-	font-size:20pt;
-	color: #31bbe7;
-	font-weight:bold;
-	z-index: 1;
-	opacity: 0.0;
-/*	animation-name: quotes;*/
-	position:absolute;
-/*	animation-delay:0s;
-	animation-duration: 5s;*/
-}
 
-div.quotes{
-	font-size:25pt;
-	margin-top:50%;
-	width:80%;
-	color: #31bbe7;
-	margin-left: 15%;
-	font-weight:bold;
-	margin-bottom:20%;
-	z-index: 1;
-	position:relative;
-}
+@media (max-width:1024px){
+
+
+		}
+
+
+@media (max-width:834px){
 div.ellenname{
-/*	margin:auto;*/
+
 	font-size:18pt;
 	font-weight:300;
-	margin-top:10%;
+	margin-top:18%;
+	margin-bottom: 0%;
+	margin-left: 50%;
+	line-height: 16pt;
+	color:  #01CCFE;
+	position: absolute;
+	z-index: 1;
+}
+		}
+
+@media (max-width:767px){
+
+}
+
+@media (max-width:715px){
+	img#ellenlogo{
+	width:80%;
+	margin:auto;
+	margin-top:5%;
+	margin-left: 40%;
+}
+div.ellenname{
+
+	font-size:18pt;
+	font-weight:300;
+	margin-top:25%;
 	margin-bottom: 0%;
 	margin-left: 50%;
 	line-height: 16pt;
@@ -429,7 +421,7 @@ div.ellenname{
 div.buttons {
 
 				color: #01CCFE;
-				font-size: 16pt;
+				font-size: 13pt;
 				font-family: 'raleway', sans-serif;
 				font-weight: bold;
 				text-decoration: none;
@@ -448,7 +440,7 @@ div.buttons {
 div.buttons1 {
 			/*	display: inline-block;*/
 				color:  #01CCFE;
-				font-size: 16pt;
+				font-size: 13pt;
 				font-family: 'raleway', sans-serif;
 				font-weight: bold;
 				width:15%;
@@ -463,518 +455,152 @@ div.buttons1 {
 				animation-duration: 2s;
 
 			}
-
-
-h1{
-	margin-right:10%;
-	color:#01CCFE;
-	margin-left:6%;
-	font-size:30pt;}
-
-div.text{
-	width:45%;
-	margin-top: -35%;
-	margin-left:50%;
-	margin-bottom:5%;
-	font-size:12pt;
-	line-height: 15pt; 
-	display:inline-block;
-}
-div.text1{
-	width:45%;
-	margin-top:-29%;
-	margin-left:50%;
-	margin-bottom:5%;
-	font-size:12pt;
-	line-height: 15pt; 
-	display:inline-block;}
-
-div.text4{
-	width:45%;
-	margin-top:-30%;
-	margin-left:50%;
-	margin-bottom:5%;
-	font-size:12pt;
-	line-height: 15pt; 
-	display:inline-block;}
-
-div.text2{
-	width:45%;
-	margin-top: -26%;
-	margin-left:50%;
-	margin-bottom:5%;
-	font-size:12pt;
-	line-height: 15pt; 
-	display:inline-block;}
-
-div.text3{
-	width:45%;
-	margin-top: -25%;
-	margin-left:50%;
-	margin-bottom:5%;
-	font-size:12pt;
-	line-height: 15pt;  
-	display:inline-block;}
-
-div.textsources{
-	width:45%;
-	font-size:9pt;
-	line-height: 10pt; 
-	margin-top: -26%;
-	margin-left:50%;
-	margin-bottom:5%;
-}
-
-img.pageimage{
-	width:45%;
-	margin-top:5%;
-	margin-left:2%;
-	display:inline-block;}
-footer{
-	color:#b2daf1;
-	font-size:10pt;
-	margin:auto;
-	margin-left: 1%;
-	padding-bottom: 1%;
-/*	bottom:0;*/
-	left:0;
-	position:absolute;}
-footer.early{
-	color:#b2daf1;
-	font-size:10pt;
-	bottom:0;
-	left:0;
-	position:absolute;}
-}
-	
-footer.index{
-	color:#b2daf1;
-	font-size:10pt;
-	bottom:0;
-	margin-bottom: -2%;
-	left:0;
-	position:absolute;}
-div.pagesources{
-	margin-left:55%;
-	margin-bottom:10%;
-	margin-top: -27%}
-
-
-}
-
-
-@media (max-width:1024px){
-
-			div.body{
-
-			min-height:100%;
-			position:relative;
-			padding-bottom: 5px;
 		}
-		div.buttonbox {
-		/*	margin:auto;
-		*/	/*box-shadow: 5px 5px #009ac6,7px 7px #009ac6, 8px 8px #29bce6,9px 9px #29bce6;*/
-			height:8%;
-			position:relative;
-			width:100%;
-			margin:0;
-			background-color: #e3f8fe;
-			padding:0;
-			margin-bottom:6%;
-
-		}
-
-
-		footer{
-			padding-bottom:2%;
-			margin-top:10%;
-			margin-left:3%;
-
-
+@media (max-width:608px){
 			}
-			footer.index{
-			padding-bottom:2%;
-			margin-top:0%;
-			margin-left:3%;
-			bottom:0;}
-		div.body{
-			height:115%;
-		}
-		div.quote{
-			font-size:20pt;
-			color: #31bbe7;
-			font-weight:bold;
-			z-index: 1;
-			opacity: 0.0;
-		/*	animation-name: quotes;*/
-			position:absolute;
-		/*	animation-delay:0s;
-			animation-duration: 5s;*/
-		}
-
-		div.quotes{
-			font-size:45pt;
-			margin-top:55%;
-			width:80%;
-			color: #31bbe7;
-			margin-left: 10%;
-			font-weight:bold;
-			margin-bottom:20%;
-			z-index: 1;
-			position:relative;
-		}
-		div.ellenname{
-		/*	margin:auto;*/
-			font-size:30pt;
-			font-weight:300;
-			margin-top:30%;
-		/*	margin-bottom: 30%;*/
-			margin-left: 50%;
-			width:36%;
-			line-height: 30pt;
-			color:  #01CCFE;
-			margin-right:5%;
-			position: absolute;
-			z-index: 1;
-		}
-		div.buttons {
-
-						color: #01CCFE;
-						font-size: 20pt;
-						font-family: 'raleway', sans-serif;
-						font-weight: bold;
-						text-decoration: none;
-						position:absolute;
-						width:15%;
-						font-weight:300;
-					}
-
-					div.buttons:hover {
-						color:  #212b41;
-						animation-name: buttons;
-						animation-duration: 2s;
-
-					}
-
-		div.buttons1 {
-					/*	display: inline-block;*/
-						color:  #01CCFE;
-						font-size: 20pt;
-						font-family: 'raleway', sans-serif;
-						font-weight: bold;
-						width:15%;
-						text-decoration: none;
-						position:absolute;
-						font-weight:300;
-					}
-
-					div.buttons1:hover {
-						color: #212b41;
-						animation-name: buttons;
-						animation-duration: 2s;
-
-					}
-
-
-		}
-
-
-
-@media (max-width:834px){
-		div.buttons {
-
-						color: #01CCFE;
-						font-size: 12pt;
-						font-family: 'raleway', sans-serif;
-						font-weight: bold;
-						text-decoration: none;
-						position:absolute;
-						font-weight:300;
-					}
-
-					div.buttons:hover {
-						color:  #212b41;
-						animation-name: buttons;
-						animation-duration: 2s;
-
-					}
-
-		div.buttons1 {
-					/*	display: inline-block;*/
-						color:  #01CCFE;
-						font-size: 12pt;
-						font-family: 'raleway', sans-serif;
-						font-weight: bold;
-						text-decoration: none;
-						position:absolute;
-						font-weight:300;
-					}
-
-					div.buttons1:hover {
-						color: #212b41;
-						animation-name: buttons;
-						animation-duration: 2s;
-
-					}
-					div.quotes{
-					font-size:18pt;
-					margin-top:50%;
-					width:80%;
-					color: #31bbe7;
-					margin-left: 10%;
-					font-weight:bold;
-					/*margin-bottom:10%;*/
-					z-index: 1;
-					position:relative;
-				}
-				div.ellenname{
-					font-size:13pt;
-					font-weight:300;
-					margin-top:8%;
-					margin-bottom: 0%;
-					margin-left: 45%;
-					line-height: 13pt;
-					color:  #01CCFE;
-					position: absolute;
-				}
-
-		}
-@media (max-width:715px){
-
-		h1{
-			margin-left:25%;
-			color:#01CCFE;
-			font-size:22pt;
-			}
-		/*
-		h1.small{margin-left:30%;}
-		h1.big{margin-left:20%;}*/
-
-		div.text{
-			width:80%;
-			margin-left:0%;
-			font-size:11pt;
-			line-height: 15pt; 
-			display:inline-block;
-
-		}
-		div.text1{
-			width:80%;
-			margin-left:0%;
-			font-size:11pt;
-			line-height: 15pt; 
-			display:inline-block;}
-
-		div.text4{
-			width:80%;
-
-			margin-left:0%;
-			font-size:11pt;
-			line-height: 15pt; 
-			display:inline-block;}
-
-		div.text2{
-			width:80%;
 			
-			margin-left:0%;
-			font-size:11pt;
-			line-height: 15pt; 
-			display:inline-block;}
 
-		div.text3{
-			width:80%;
-			margin-left:0%;
-			margin-bottom:5%;
-			font-size:11pt;
-			line-height: 15pt;  
-			display:inline-block;}
-
-		div.textsources{
-			width:45%;
-			font-size:9pt;
-			line-height: 10pt; 
-			margin-top: -26%;
-			margin-left:0%;
-			margin-bottom:5%;
-		}
-
-		h2{
-			font-size:12pt;
-			color:#01CCFE;
-		}
-		img.pageimage{
-			width:80%;
-			margin-top:5%;
-			margin-bottom: 36%;
-			margin-left:0%;
-			display:block;}
-
-		div.sizing{
-			width:80%;
-			margin-left:10%;
-		}
-
-		}
-@media (max-width:768px){
-
-			div.body{
-
-			min-height:100%;
-			position:relative;
-			padding-bottom: 5px;
-		}
-		div.buttonbox {
-		/*	margin:auto;
-		*/	/*box-shadow: 5px 5px #009ac6,7px 7px #009ac6, 8px 8px #29bce6,9px 9px #29bce6;*/
-			height:8%;
-			position:relative;
-			width:100%;
-			margin:0;
-			background-color: #e3f8fe;
-			padding-top:2%;
-			margin-bottom:6%;
-
-		}
-
-
-		footer{
-			padding-bottom:2%;
-			margin-top:10%;
-			margin-left:3%;
-
-
-			}
-			footer.index{
-			padding-bottom:2%;
-			margin-top:0%;
-			margin-left:3%;
-			bottom:0;}
-		div.body{
-			height:115%;
-		}
-		div.quote{
-			font-size:20pt;
-			color: #31bbe7;
-			font-weight:bold;
-			z-index: 1;
-			opacity: 0.0;
-		/*	animation-name: quotes;*/
-			position:absolute;
-		/*	animation-delay:0s;
-			animation-duration: 5s;*/
-		}
-
-		div.quotes{
-			font-size:30pt;
-			margin-top:55%;
-			width:80%;
-			color: #31bbe7;
-			margin-left: 10%;
-			font-weight:bold;
-			margin-bottom:20%;
-			z-index: 1;
-			position:relative;
-		}
-		div.ellenname{
-		/*	margin:auto;*/
-			font-size:25pt;
-			font-weight:300;
-			margin-top:30%;
-		/*	margin-bottom: 30%;*/
-			margin-left: 50%;
-			width:36%;
-			line-height: 30pt;
-			color:  #01CCFE;
-			margin-right:5%;
-			position: absolute;
-			z-index: 1;
-		}
-		div.buttons {
-
-						color: #01CCFE;
-						font-size: 15pt;
-						font-family: 'raleway', sans-serif;
-						font-weight: bold;
-						text-decoration: none;
-						position:absolute;
-						width:15%;
-						font-weight:300;
-					}
-
-					div.buttons:hover {
-						color:  #212b41;
-						animation-name: buttons;
-						animation-duration: 2s;
-
-					}
-
-		div.buttons1 {
-					/*	display: inline-block;*/
-						color:  #01CCFE;
-						font-size: 15pt;
-						font-family: 'raleway', sans-serif;
-						font-weight: bold;
-						width:15%;
-						text-decoration: none;
-						position:absolute;
-						font-weight:300;
-					}
-
-					div.buttons1:hover {
-						color: #212b41;
-						animation-name: buttons;
-						animation-duration: 2s;
-
-					}
-
-
-		}
-@media (max-width:715px){
-			div.buttons {
-
-						color: #01CCFE;
-						font-size: 10pt;
-						font-family: 'raleway', sans-serif;
-						font-weight: bold;
-						text-decoration: none;
-						position:absolute;
-						font-weight:300;
-					}
-
-					div.buttons:hover {
-						color:  #212b41;
-						animation-name: buttons;
-						animation-duration: 2s;
-
-					}
-
-		div.buttons1 {
-					/*	display: inline-block;*/
-						color:  #01CCFE;
-						font-size: 10pt;
-						font-family: 'raleway', sans-serif;
-						font-weight: bold;
-						text-decoration: none;
-						position:absolute;
-						font-weight:300;
-					}
-
-					div.buttons1:hover {
-						color: #212b41;
-						animation-name: buttons;
-						animation-duration: 2s;
-
-					}
-
-			}
 @media (max-width:510px){
+
+
+div#career{
+margin-left:25%;
+width:10%;
+margin-top:4%;
+}
+
+div#activism{
+margin-left:42%;
+width:10%;
+margin-top:4%;
+}
+
+div#earlylife{
+margin-left:60%;
+width:15%;
+margin-top:4%;}
+
+div#sources{
+margin-left:80%;
+width:10%;
+margin-top:4%;
+	
+}
+	img#ellenlogo{
+	width:100%;
+	margin:auto;
+	margin-top:10%;
+	margin-left: 30%;
+}
+
+div.ellenname{
+
+	font-size:18pt;
+	font-weight:300;
+	margin-top:60%;
+	margin-bottom: 0%;
+	margin-left: 50%;
+	line-height: 20pt;
+	color:  #01CCFE;
+	position: absolute;
+	z-index: 1;
+}
+div.buttons {
+
+				color: #01CCFE;
+				font-size: 9pt;
+				font-family: 'raleway', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+				position:absolute;
+				width:15%;
+				font-weight:300;
+
+			}
+
+			div.buttons:hover {
+				color:  #212b41;
+				animation-name: buttons;
+				animation-duration: 2s;
+
+			}
+
+div.buttons1 {
+			/*	display: inline-block;*/
+				color:  #01CCFE;
+				font-size: 9pt;
+				font-family: 'raleway', sans-serif;
+				font-weight: bold;
+				width:15%;
+				text-decoration: none;
+				position:absolute;
+				font-weight:300;
+			}
+
+			div.buttons1:hover {
+				color: #212b41;
+				animation-name: buttons;
+				animation-duration: 2s;
+
+			}
+			footer{
+				margin-top:15%;
+				font-size:9pt;
+			}
+				
+			
+
+
+		}
+
+@media (max-width:414px){
+
 			div.buttonbox{
 				display:none;
 			}
 
 			div#drawer{
-				display:inline-block;
 				z-index: 100;
+				opacity: 1.0;
+				content:
+				<button class="controls"></button>
+				<div class="contents">
+									
+					<a href="index.html">
+					<div class="buttons" id="home">
+						<img id="ellenlogo" src="images/ellen.png" alt="Ellen Logo"></img>
+					</div>
+						
+					</a>
+
+					<a href="earlylife.html">
+					<div class="buttons" id="earlylife">
+						EARLY LIFE
+					</div>
+						
+					</a>
+
+						<a href="career.html">
+					<div class="buttons" id="career">
+							CAREER
+					</div>
+						
+					</a>
+
+						<a href="activism.html">
+					<div class="buttons" id="activism">
+						ACTIVISM
+					</div>
+						
+					</a>
+
+						<a href="sources.html">
+					<div class="buttons" id="sources">
+						SOURCES
+					</div>
+						
+					</a>
+				</div>;
 			}
 
 					body {
@@ -987,16 +613,17 @@ div.pagesources{
 						position: fixed;
 						top: 0;
 						width: 100%;
-							display:inline-block;
-						height: 9%;
+						z-index: 100;
+						/*	display:inline-block;*/
+						height: 60px;
 					}
 
 					#drawer button.controls {
 						position: absolute;
 						right: 0;
 						bottom: 0;
-						height: 100%;
-							display:inline-block;
+						height: 60px;
+				
 						width: 100%;
 						background-color: #212b41;;
 						cursor: pointer;
@@ -1004,7 +631,7 @@ div.pagesources{
 
 					#drawer.open button.controls {
 						background-color: #212b41;;
-							display:inline-block;
+					
 					}
 
 					#drawer button.controls:after {
@@ -1031,10 +658,11 @@ div.pagesources{
 					}
 
 					#drawer.open .contents {
-						height: 400%;
-						display:inline-block;
+						height: 250px;
+						display: block;
 						padding: 30px 10px 10px 10px;
-						margin-top:10%;
+						overflow: hidden;
+						margin-top:50px;
 					}
 
 					img#ellenlogo{
@@ -1145,7 +773,7 @@ div.pagesources{
 			width:100%;
 			margin:auto;
 			position:absolute;
-			opacity:0%;}
+			opacity:0.0;}
 
 		div.mainellen{
 			width:100%;
@@ -1180,12 +808,12 @@ div.pagesources{
 		   animation-delay: 17s;
 		 animation-direction: alternate;}
 		div.ellenname{
-		/*	margin:auto;*/
+
 			font-size:15pt;
 			font-weight:300;
-			margin-top:108%;
-			/*margin-bottom: 0%;*/
+			margin-top:130%;
 			width:80%;
+
 			text-align:center;
 			margin-left: 10%;
 			margin-right:10%;
@@ -1209,7 +837,7 @@ div.pagesources{
 			/*margin-left:25%;*/
 			color:#01CCFE;
 			font-size:22pt;
-			margin-left: 5%;
+			margin-left: 12%;
 			}
 
 		footer{
@@ -1218,12 +846,7 @@ div.pagesources{
 			margin-left:3%;
 
 			}
-			footer.index{
-			padding-bottom:2%;
-			margin-top:0%;
-			margin-left:3%;
-			bottom:0;}
-
+		
 		div.text2{
 			width:100%;
 			margin-top: -26%;
@@ -1274,12 +897,6 @@ div.pagesources{
 				margin-left:0%;
 				margin-top: -30%}
 			
+			
 			}
-			body{
-				height:85%;
-			}
-
-
-
-		}
-
+		
