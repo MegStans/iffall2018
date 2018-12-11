@@ -159,7 +159,7 @@ div.quote4{
 }
 
 img#ellenlogo{
-	width:70%;
+	width:55%;
 	margin:auto;
 	margin-top:5%;
 	margin-left: 40%;
@@ -558,6 +558,7 @@ div.buttons1 {
 			div.buttonbox{
 				display:none;
 			}
+	
 
 			div#drawer{
 				z-index: 100;
@@ -811,7 +812,7 @@ div.buttons1 {
 
 			font-size:15pt;
 			font-weight:300;
-			margin-top:130%;
+			margin-top:100%;
 			width:80%;
 
 			text-align:center;
