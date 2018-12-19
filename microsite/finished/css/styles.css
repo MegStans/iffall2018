@@ -363,20 +363,54 @@ footer{
 
 
 @media (max-width:1466px){
+div.ellenname{
 
-	}
+	font-size:18pt;
+	font-size:18pt;
+	font-weight:300;
+	margin-top:7%;
+	margin-bottom: 0%;
+	margin-left: 50%;
+	line-height: 16pt;
+	color:  #01CCFE;
+	position: absolute;
+	z-index: 1;}
+
+		}
 
 
 
 @media (max-width:1330px){
+div.ellenname{
 
+	font-size:18pt;
+	font-weight:300;
+	margin-top:8%;
+	margin-bottom: 0%;
+	margin-left: 50%;
+	line-height: 16pt;
+	color:  #01CCFE;
+	position: absolute;
+	z-index: 1;
+}
 
 }
 
 
 @media (max-width:1024px){
 
+div.ellenname{
 
+	font-size:18pt;
+	font-weight:300;
+	margin-top:18%;
+	margin-bottom: 0%;
+	margin-left: 50%;
+	line-height: 16pt;
+	color:  #01CCFE;
+	position: absolute;
+	z-index: 1;
+}
 		}
 
 
